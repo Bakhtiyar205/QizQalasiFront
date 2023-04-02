@@ -1,0 +1,40 @@
+<footer>
+    <div class="footer-header d-flex justify-content-center align-items-center py-2 justify-content-center gap-2 h3">
+        <a href=""><fa-icon [icon]="['fab', 'facebook']"></fa-icon></a>
+        <a href=""><fa-icon [icon]="['fab', 'instagram']"></fa-icon></a>
+        
+    </div>
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 text-center d-flex justify-content-center align-items-center">Qız Qalası</div>
+                        <div class="col-lg-6 col-12">
+                            <p> <fa-icon [icon]="['fab', 'facebook']"></fa-icon> Ismayillı rayonu, </p>
+                            <p> <fa-icon [icon]="['fab', 'facebook']"></fa-icon> 050-369-10-15</p>
+                            <p> <fa-icon [icon]="['fab', 'facebook']"></fa-icon> qizqalası@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <p *ngFor="let link of links | slice:0:3">
+                                <a routerLink="/ui/{{link.route}}">{{link.view.toUpperCase()}}</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p *ngFor="let link of links | slice:3:6">
+                                <a routerLink="/ui/{{link.route}}">{{link.view.toUpperCase()}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-footer text-center py-2">
+        &copy; 2023 Qız Qalası Hotel. All rights reserved.
+    </div>
+</footer>

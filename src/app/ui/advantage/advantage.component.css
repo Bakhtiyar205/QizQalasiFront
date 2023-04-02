@@ -1,0 +1,30 @@
+.advantages {
+    font-family: 'roboto', sans-serif;
+}
+.advantages-highlight img{
+    width: 100%;
+    height: auto;
+}
+
+.advantage-main-img img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    width: 100%;
+}
+
+h1 span {
+    font-size: 3rem;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #e1bd85;
+}
+
+@media only screen and (min-width:252px) and (max-width: 992px) {
+    h1 span {
+        font-size: 2rem;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #e1bd85;
+    }
+  }

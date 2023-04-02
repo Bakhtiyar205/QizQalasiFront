@@ -1,0 +1,26 @@
+footer{
+    background-color: #232323;  
+    color: #acacac;
+    font-family: 'roboto', sans-serif;
+}
+
+.footer-header{
+   background-color: #2e2e2e;
+}
+
+.footer-main{
+    background-color: #232323;
+}
+
+.footer-footer{
+    background-color: #101010;
+}
+
+a{
+    color: #acacac;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f3f3f3;
+}

@@ -1,0 +1,38 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
+        <div class="container">
+          <a class="navbar-brand" href="#">Qız Qalası</a>
+          <button class="navbar-toggler my-2" 
+          type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavDropdown" 
+          aria-controls="navbarNavDropdown" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"  
+          (click)="expander()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/" #homePage routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [class.active]="isHomePage()">Ana Səhifə</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="about" routerLinkActive="active">Haqqımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="rooms" routerLinkActive="active">Otaqlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="gallery" routerLinkActive="active">Qalerya</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="services" routerLinkActive="active">Xidmətlərimiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="contact" routerLinkActive="active">Əlaqə</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>

@@ -1,0 +1,27 @@
+.nav-link.active{
+    color: #fff;
+    background-color: #e1bd85;
+
+}
+
+.nav-link{
+    color:#333;
+    padding: 1rem;
+}
+.navbar{
+    font-family: "roboto", sans-serif;
+    /* font-family: "roboto"; */
+    height: auto;
+    --bs-navbar-padding-y: 0rem !important;
+}
+/* .nav-link{
+    padding: 4vh 5px !important;
+} */
+.nav-link:hover{
+    background-color: #e1bd85;
+    color: #fff;
+}
+
+.bg-yellow{
+    background-color: #ffd28a;
+}
